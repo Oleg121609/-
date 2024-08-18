@@ -1,6 +1,6 @@
 my_string = input("Введите пароль: ")
 print("Пароль,", my_string)
-int(input(my_string))
+print(len(my_string))
 print("Введите пароль".upper())
 print("Введите пароль".lower())
 print("Введите пароль".replace(' ','#'))
